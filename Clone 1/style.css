@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#nav{
+    height: 140px;
+    padding: 0 50px;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-prt2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* background-color: blue;*/
+    width: 58%;
+}
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+#nav i{
+    margin: 5px ;
+    font-size: 22px;
+}
+#nav h5{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+#nav img{
+    height: 40px;
+}
+#line{
+    width: 90px;
+    height: 2px;
+    background-color: red;
+}
+
+#content{
+    height: calc(100% - 140px);
+    width: 100%;
+    /*background-color: lightblue;*/
+    display: flex;
+    position: relative;
+}
+#left{
+    width: 36%;
+    height: 100%;
+    /*background-color: red;*/
+    padding: 80px 60px;
+}
+#left h1{
+    font-size: 65px;
+    line-height: 65px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+#left span{
+    font-weight: 500;
+    color: red;
+}
+#left p{
+    font-size: 16px;
+    width: 80%;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+#left button{
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+#left button i{
+    margin right: 8px;
+}
+#right{
+    width: 36%;
+    height: 100%;
+    padding: 160px 160px
+    /*background-color: red*/;
+}
+
+#center{
+    width: 26%;
+    height: 100%;
+    /*background-color: red*/;
+    padding-top: 70px;
+    justify-content: space-between ;
+}
+#centerbg{
+    background-color: blue; 
+    height: 85%;
+    width: 100%;
+    border-Top-left-radius: 1000PX;
+    background-image: url(https://w0.peakpx.com/wallpaper/581/450/HD-wallpaper-coca-cola-red-logo-red-brickwall-coca-cola-logo-brands-coca-cola-neon-logo-coca-cola.jpg);
+    border-top-right-radius: 1000px;
+    background-size: 350%;
+    background-position: 40% 50%;
+    background-repeat: no-repeat;
+    filter: blur(10px);
+}
+#content>img{
+    height: 100%;
+    position: absolute;
+    left: 49%;
+    transform: translate(-50%,0);
+}
+#rtelm1{
+    
+    width: 250px;
+}
+#lm1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    opacity: 0.4;
+    border-bottom: 1px solid white ;
+}
+#lm1 h1{
+    font-size: 20px;
+    font-weight: 800;
+}
+#lm1 i{
+    font-size: 20px ;
+}
+#lm2 h1{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+#lm2 p{
+    font-size: 12px
+    width 70%;
+    opacity: 0.4;
+}

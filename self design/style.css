@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
+    height: 100vh;
+    width: 100%;
+
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/669578/pexels-photo-669578.jpeg);
+    background-size: cover;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+
+}
+
+#nav h5 {
+    padding: 60px;
+    font-size: 15px;
+    color: black;
+}
+
+#right {
+    height: 90%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#right h1 {
+    padding-right: 250px;
+    font-size: 80px;
+    margin-left: 300px;
+}
+
+#right p {
+    padding-right: 200px;
+    margin-left: 300px;
+    margin-bottom: 140px;
+}
+
+#right button {
+    width: 170px;
+    font-size: 30px;
+    margin-left: 300px;
+    background: none;
+    border-radius: 18px;
+    border-top-left-radius: 0px;
+}
+
+#left {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+
+}
+
+#left h1 {
+    /*margin-left: 500px;*/
+    color: gray;
+
+    font-size: 50px;
+}
+
+#down {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+}
+
+#down h1 {
+    font-size: 60px;
+    padding-left: 300px;
+    padding-right: 400px;
+}
+
+#down button {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 300px;
+    background: none;
+    width: 190px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+#imgsec {
+    display: flex;
+    height: 90%;
+    width: 100%;
+    background-color: black;
+}
+
+#pt1 {
+    height: 100%;
+    width: 45%;
+    background-image: url(https://images.pexels.com/photos/18867786/pexels-photo-18867786/free-photo-of-model-in-sepia-jacket.jpeg?auto=compress&cs=tinysrgb&w=2260&h=2050&dpr=1);
+    background-size: cover;
+}
+
+#pt2 {
+    height: 100%;
+    width: 10%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#pt2 h1 {
+    font-size: 100px;
+
+}
+
+#pt3 {
+    height: 100%;
+    width: 45%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.pexels.com/photos/18873625/pexels-photo-18873625/free-photo-of-pedestrians-walking-along-a-cobblestone-street-in-dresden.jpeg?auto=compress&cs=tinysrgb&w2260&h=2050&dpr=1);
+}
+
+#end {
+    height: 40%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+#rw {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 60%;
+
+    color: gray;
+
+}
+
+#rw h1 {
+    margin-left: 130px;
+    font-size: 25px;
+
+}
+
+#rw h5 {
+    margin-left: 130px;
+    margin-top: 15px;
+
+}
+#lw{
+    height: 100%;
+    width: 40%;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#lw h2{
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: gray;
+    text-transform: capitalize;
+}
+#lw h3{
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: gray;
+}
+#lw button{
+    height: 40px;
+    width: 130px;
+    margin-top: 10px;
+    background: none;
+    border-radius: 15px;
+    color: black;
+    background-color: gray;
+}

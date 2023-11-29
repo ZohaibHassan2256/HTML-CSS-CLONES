@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://rtlimages.apple.com/cmc/dieter/store/16_9/R155.png?resize=2880:1612&output-format=jpg&output-quality=85&interpolation=progressive-bicubic);
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(0, 0, 0, 0.5);
+   /* filter: brightness(50%);*/
+}
+
+#nav {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    
+}
+
+#logo {
+    width: 10%;
+    height: 100%;
+  background-image: url(pngfind.com-apple-music-logo-png-317703.png);
+  background-size: 20%;
+  margin-left: 40px;
+  margin-top: 18px;
+  background-repeat: no-repeat;
+
+}
+
+#cont {
+    width: 70%;
+    height: 100%;
+ color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#cont h5{
+    
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#icon {
+    width:20% ;
+    height: 100%;
+ color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#icon i{
+    margin-right: 90px ;
+    font-size: 25px;
+}
+#content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+#right{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#right h1{
+    margin-left: 200px;
+    font-size: 70px;
+    color: black;
+}
+#mid{
+    height: 100%;
+    width: 50%;
+    
+}
+#left{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+#left h2{
+    color: Black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    
+    
+}
+#left p{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+#down{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+#rig{
+    height: 100%;
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.apple.com/newsroom/videos/iphone-15-pro-action-button/posters/Apple-iPhone-15-Pro-lineup-Action-button-230912.jpg.large_2x.jpg);
+}
+
+#lef{
+    width: 60%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: normal;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10%;
+    font-size: 30px;
+}
+#lef h1{
+    font-size: 60px;
+}
+#lef p{
+font-size: 15px;
+}
+#lef button{
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    background: none;
+    
+}
+#img{
+height: 55%;
+    width: 100%;
+    background-color: red;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-image: url(https://images.pexels.com/photos/11131272/pexels-photo-11131272.jpeg?auto=compress&cs=tinysrgb&w=3000);
+}
+#img h1{
+    
+    font-size: 150px;
+    color: goldenrod;
+}
+#img h2{
+    font-size: 50px;
+    color: gray;
+}
+#vid{
+    height: 50%;
+    width: 100%;
+   position: relative;
+}
+#rt{
+   
+    height: 100%;
+    width: 100%;
+  
+}
+#rt video{
+   height: 100%;
+   width: 100%;
+   object-fit: fill;  
+}
+#text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: 900px;
+    mix-blend-mode: multiply;
+}
+#mac{
+    height: 80%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+}
+#one{
+    height: 100%;
+    width: 65%;
+    background-color: gray;
+    background-image: url(https://images.pexels.com/photos/434346/pexels-photo-434346.jpeg?auto=compress&cs=tinysrgb&w=3000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#two{
+    height: 100%;
+    width: 35%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#two h1{
+    font-size: 50px;
+    color: gray;
+}
+#two p{
+    color: gray;
+    padding-right: 50px;
+}
+#two button{
+    height: 50px;
+    width: 100px;
+    color: goldenrod;
+    border: 2px solid gray;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color 0.4s , linear;
+    font-size: 15px;
+    background: none;
+    margin-top: 40px;
+}
+#two button:hover{
+    color: black;
+}
+
