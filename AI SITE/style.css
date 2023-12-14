@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #140A22;
+    display: flex;
+}
+#rw{
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+#rw h1{
+    margin-left: 30px;
+  padding-right: 50px;
+    font-size: 65px;
+    color: white;
+    margin-bottom: 40px;
+    line-height: 95%;
+
+}
+#rw h4{
+    margin-left: 30px;
+   
+   
+    font-size: 25px;
+    color: white;
+}
+#rw h2{
+    color: white;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: 30px;
+}
+#lw{
+    height: 100%;
+    width: 60%;
+display: flex;
+justify-content: end;
+align-items: end;
+
+}
+#lw img{
+    height: 600px;
+
+}
+
+#down{
+    height: 70%;
+    width: 100%;
+display: flex;
+justify-content: space-between;
+    background-color: #140A22;
+}
+#down1{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+    
+    color: white;
+
+}
+#down1 h1{
+    margin-left: 30px;
+ margin-top: 40px;
+      font-size: 35px;
+      color: white;
+      margin-bottom: 30px;
+      line-height: 95%;
+}
+#down1 h5{
+    margin-left: 30px;
+ 
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 95%;
+}
+#dbtn{
+    display: flex;
+    
+    
+}
+#dbtn button{
+    margin-right:25px ;
+    padding: 13px 35px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #4ADE80;
+    margin-left: 30px;
+}
+#dbtn h3{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #4ADE80;
+}
+#dp{
+    height: 100%;
+
+    width: 50%;
+}
+#down2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    
+}
+#right{
+    height: 100%;
+    width: 50%;
+   color: white;
+}
+#right i{
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 80px;
+    color: white;
+}
+#right h3{
+    margin-bottom:20px ;
+}
+#left{
+    height: 100%;
+    width: 50%;
+    color: white;
+
+}
+#left i{
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 80px;
+    color: white;
+}
+#left h3{
+    margin-bottom:20px ;
+}
+#dn{
+    height: 50%;
+    width: 100%;
+    display: flex;
+  
+}
+#rr{
+    
+        height: 100%;
+        width: 50%;
+       color: white;
+    
+}
+#rr i{
+
+    margin-right: 10px;
+    font-size: 80px;
+    color: white;
+}
+#rr h3{
+    margin-bottom:20px ;
+}
+
+#ll{
+    height: 100%;
+    width: 50%;
+    color: white;
+}
+#ll i{
+
+    margin-right: 10px;
+    font-size: 80px;
+    color: white;
+}
+#ll h3{
+    margin-bottom:20px ;
+}
+
+#part2{
+    height: 70%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #140A22;
+}
+#part2 i{
+    color: #4ADE80;
+    font-size: 130px;
+}
+#part2 h1{
+    padding: 10px 500px;
+    text-align: center;
+}
+#part2 p{
+    padding: 10px 500px;
+    text-align: center;
+}
+#box{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #140A22;
+}
+#c1{
+    height: 15%;
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 4px;
+   
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#c1 i{
+    color: #4ADE80;
+    font-size: 50px;
+}
+#c1 h4{
+    margin-left: 5px;
+}
+#c2{
+    height: 15%;
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 4px;
+   
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#c2 i{
+    color: #4ADE80;
+    font-size: 50px;
+}
+#c2 h4{
+    margin-left: 5px;
+}
+#c3{
+    height: 15%;
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 4px;
+   
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#c3 i{
+    color: #4ADE80;
+    font-size: 50px;
+}
+#c3 h4{
+    margin-left: 5px;
+}
+#c4{
+    height: 15%;
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 4px;
+   
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#c4 i{
+    font-size: 50px;
+    color: #4ADE80;
+}
+#c4 h4{
+    margin-left: 5px;
+
+}
